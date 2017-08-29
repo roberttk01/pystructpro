@@ -59,18 +59,6 @@ SOFTWARE.
             except:
                 print("Error generating LICENSE file.")
 
-    # def generate_readme(path):
-    #     if os.path.exists(path + "/README.md"):
-    #         print("README.md already exists.")
-    #         sleep(1)
-    #     else:
-    #         filename = path + "/README.md"
-    #         try:
-    #             with open(filename, "w") as f:
-    #                 f.write("")
-    #             f.close()
-    #         except:
-    #             print("Error generating blank README.md file.")
 
     def generate_dir_files(path):
         files = ['/README.md', '/requirements.txt', '/test-requirements.txt', '/setup.py']
@@ -107,9 +95,6 @@ SOFTWARE.
                 os.mkdir(full_path)
             except:
                 print("Error populating")
-
-
-
 
 
 def main():
