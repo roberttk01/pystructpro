@@ -154,8 +154,8 @@ As you can see, the project directory was generated and organized just as before
 ### To-Do
    
 - [x] Develop basic skeleton generator with optional directory parameter
-- [X] Update README.md (ongoing)
-- [ ] Populate setup.py
+- [x] Update README.md (ongoing)
+- [x] Populate setup.py
 - [ ] Generate tests
 - [ ] Provide options for other license types (Apache, GNU, etc.)
 - [ ] Include CONTRIBUTORS.md
